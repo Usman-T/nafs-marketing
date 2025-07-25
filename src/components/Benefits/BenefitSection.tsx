@@ -70,7 +70,7 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
               variants={childVariants}
             >
               <SectionTitle>
-                <h3 className="lg:max-w-2xl text-[#ebdbb2] font-bold text-2xl md:text-3xl">
+                <h3 className="lg:max-w-2xl text-[#ebdbb2] lg:text-[#fe8019] font-extrabold text-2xl md:text-3xl">
                   {title}
                 </h3>
               </SectionTitle>
