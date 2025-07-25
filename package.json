@@ -1,5 +1,5 @@
 {
-  "name": "finwise",
+  "name": "nafs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "@next/third-parties": "^14.2.13",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
+    "geist": "^1.4.2",
     "next": "^14.2.13",
     "react": "^18",
     "react-dom": "^18",

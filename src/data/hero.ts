@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Nurture Your Spiritual Growth',
+    subheading: "Track your islamic habits, build streaks and a closer connection to Allah",
     centerImageSrc: '/images/hero-mockup.webp',
 }
