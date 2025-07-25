@@ -3,11 +3,8 @@ import {
   FiBookmark,
   FiBookOpen,
   FiHeadphones,
-  FiLock,
-  FiShield,
   FiTarget,
   FiTrendingUp,
-  FiUser,
   FiVolume2,
 } from "react-icons/fi";
 

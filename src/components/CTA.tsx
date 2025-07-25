@@ -148,7 +148,7 @@ const CTA: React.FC = () => {
                     {/* Status message */}
                     {status === "success" && (
                       <p className="text-[#b8bb26] text-xs text-center animate-fade-in">
-                        Thanks! We'll keep you updated on our progress.
+                        Thanks! We&apos;ll keep you updated on our progress.
                       </p>
                     )}
                   </div>

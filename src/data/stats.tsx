@@ -1,4 +1,4 @@
-import { BsRocketTakeoffFill, BsShieldLockFill } from "react-icons/bs";
+import { BsRocketTakeoffFill } from "react-icons/bs";
 import { PiSparkleFill } from "react-icons/pi";
 
 import { IStats } from "@/types";
