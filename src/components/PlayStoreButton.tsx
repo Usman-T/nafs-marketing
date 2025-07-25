@@ -9,9 +9,9 @@ const PlayStoreButton = ({ dark }: { dark?: boolean }) => {
       <button
         type="button"
         className={clsx(
-          "flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit border transition-all duration-300",
+          "flex items-center justify-center min-w-[205px] mt-3 px-6 h-14 rounded-full w-full sm:w-fit border transition-all duration-300 shadow-sm hover:shadow-md hover:scale-[1.015]",
           {
-            "bg-[#282828] text-[#ebdbb2] border-[#3c3836] hover:border-[#fe8019]":
+            "bg-[#3c3836] text-[#ebdbb2] border-[#504945] hover:bg-[#282828]":
               dark,
             "bg-[#ebdbb2] text-[#1d2021] hover:bg-[#fe8019] hover:text-[#1d2021]":
               !dark,

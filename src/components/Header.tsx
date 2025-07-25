@@ -49,7 +49,7 @@ const Header: React.FC = () => {
 
           <button
             onClick={toggleMenu}
-            className="md:hidden flex items-center justify-center w-10 h-10 rounded-full bg-[#fe8019] text-[#1d2021] transition-all focus:outline-none"
+            className="md:hidden flex items-center justify-center w-10 h-10  rounded-full text-[#a89984] transition-all focus:outline-none"
             aria-controls="mobile-menu"
             aria-expanded={isOpen}
           >

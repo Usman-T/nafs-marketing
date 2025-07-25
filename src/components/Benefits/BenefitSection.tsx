@@ -50,7 +50,7 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
   const { title, description, imageSrc, bullets } = benefit;
 
   return (
-    <section className="benefit-section">
+    <section className="mt-24 benefit-section">
       <motion.div
         className="flex flex-wrap flex-col items-center justify-center gap-2 lg:flex-row lg:gap-20 lg:flex-nowrap mb-24"
         variants={containerVariants}
@@ -70,7 +70,7 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
               variants={childVariants}
             >
               <SectionTitle>
-                <h3 className="lg:max-w-2xl text-[#fe8019] font-bold text-2xl md:text-3xl">
+                <h3 className="lg:max-w-2xl text-[#ebdbb2] font-bold text-2xl md:text-3xl">
                   {title}
                 </h3>
               </SectionTitle>
