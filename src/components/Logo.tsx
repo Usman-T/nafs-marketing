@@ -1,6 +1,6 @@
 import React from "react";
 
-const Logo = ({ className, ...props }) => {
+const Logo = ({ className }: { className: string }) => {
   return (
     <svg
       className={className}
