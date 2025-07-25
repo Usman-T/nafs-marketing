@@ -1,4 +1,6 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaThreads, FaTwitter, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-variants";
 
 export const getPlatformIconByName = (platformName: string): JSX.Element | null => {
     switch (platformName) {
@@ -30,4 +32,8 @@ export const getPlatformIconByName = (platformName: string): JSX.Element | null 
             console.log('Platform name not supported, no icon is returned:', platformName);
             return null;
     }
+}
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
 }

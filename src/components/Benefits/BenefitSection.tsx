@@ -70,8 +70,17 @@ const BenefitSection: React.FC<Props> = ({ benefit, imageAtRight }: Props) => {
               variants={childVariants}
             >
               <SectionTitle>
-                <h3 className="lg:max-w-2xl text-[#ebdbb2] lg:text-[#fe8019] font-extrabold text-2xl md:text-3xl">
-                  {title}
+                <h3 className="lg:max-w-2xl font-extrabold text-2xl md:text-3xl">
+                  {title.split(" ").map((word, index) => (
+                    <span
+                      key={index}
+                      className={
+                        index === 1 ? "text-[#fe8019]" : "text-[#ebdbb2]"
+                      }
+                    >
+                      {word + " "}
+                    </span>
+                  ))}
                 </h3>
               </SectionTitle>
 

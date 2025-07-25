@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             {heroDetails.heading.split(" ").slice(0, 2).join(" ")}
           </span>{" "}
           <span className="text-[#fe8019]">
-            {heroDetails.heading.split(" ").slice(2).join(" ")}
+            {heroDetails.heading.split(" ").slice(3).join(" ")}
           </span>
         </h1>
 
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           {heroDetails.subheading}
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
-          <PlayStoreButton dark />
+          <PlayStoreButton  dark />
         </div>
         <Image
           src={heroDetails.centerImageSrc}

@@ -31,7 +31,7 @@ const Header: React.FC = () => {
               <li key={item.text}>
                 <Link
                   href={item.url}
-                  className="text-[#a89984] hover:text-[#fe8019] transition-colors font-medium"
+                  className="text-[#a89984] text-sm hover:text-[#fe8019] transition-colors font-medium"
                 >
                   {item.text}
                 </Link>
@@ -79,7 +79,7 @@ const Header: React.FC = () => {
                 <Link
                   href={item.url}
                   onClick={toggleMenu}
-                  className="block text-[#a89984] hover:text-[#fe8019] font-medium transition-colors"
+                  className="block text-[#a89984] hover:text-[#fe8019] font-medium text-sm transition-colors"
                 >
                   {item.text}
                 </Link>

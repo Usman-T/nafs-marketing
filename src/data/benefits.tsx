@@ -1,72 +1,98 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiBookmark,
+  FiBookOpen,
+  FiHeadphones,
+  FiLock,
+  FiShield,
+  FiTarget,
+  FiTrendingUp,
+  FiUser,
+  FiVolume2,
+} from "react-icons/fi";
 
-import { IBenefit } from "@/types"
+import { IBenefit } from "@/types";
+import { LuLayoutPanelTop } from "react-icons/lu";
+import { PiMoonStars } from "react-icons/pi";
 
 export const benefits: IBenefit[] = [
-    {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
-        bullets: [
-            {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
-            },
-            {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
-            },
-            {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.png"
-    },
-    {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
-        bullets: [
-            {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
-            },
-            {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
-            },
-            {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-2.png"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-3.png"
-    },
-]
+  {
+    title: "Your Spiritual Dashboard",
+    description:
+      "Visualize your self-growth across the 7 essential dimensions of a balanced Muslim life. The radar chart keeps your inner state visible—so you never grow lopsided.",
+    bullets: [
+      {
+        title: "7 Dimensions of the Nafs",
+        description:
+          "Faith, Discipline, Knowledge, Character, Remembrance, Body, and Purpose—each one tracked, each one strengthened.",
+        icon: <FiBarChart2 size={26} />,
+      },
+      {
+        title: "Know Where You're Weak",
+        description:
+          "Your lowest-scoring dimension is spotlighted, helping you realign your focus and intention.",
+        icon: <FiTarget size={26} />,
+      },
+      {
+        title: "See Yourself Evolve",
+        description:
+          "As you complete tasks and maintain streaks, your spiritual profile updates in real time.",
+        icon: <FiTrendingUp size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-1.png",
+  },
+
+  {
+    title: "Daily Qur'anic Guidance",
+    description:
+      "Strengthen your bond with the Qur’an through a beautifully integrated system of reflection, habit, and knowledge—right at your fingertips.",
+    bullets: [
+      {
+        title: "Daily Ayah & Reflections",
+        description:
+          "A new verse every day, paired with your thoughts or tafsir to keep you engaged and mindful.",
+        icon: <FiBookOpen size={26} />,
+      },
+      {
+        title: "Track Streaks & Save Gems",
+        description:
+          "Maintain a reading habit and bookmark your favorite ayahs and reflections for later.",
+        icon: <FiBookmark size={26} />,
+      },
+      {
+        title: "Listen, Search, Reflect",
+        description:
+          "Explore Qur’anic audio, search by Surah or keyword, and build your personal library of insights.",
+        icon: <FiHeadphones size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-2.png",
+  },
+  {
+    title: "A Better Way to Read the Qur’an",
+    description:
+      "Arabic, translation, audio, and tafsir—all in one place. Clean, simple, and built for reflection.",
+    bullets: [
+      {
+        title: "Side-by-Side View",
+        description:
+          "Read Arabic with the English meaning together. No clutter, no confusion.",
+        icon: <LuLayoutPanelTop size={26} />,
+      },
+      {
+        title: "Audio & Tafsir Built-In",
+        description:
+          "Tap to listen or dive deeper into tafsir without switching screens.",
+        icon: <FiVolume2 size={26} />,
+      },
+      {
+        title: "Dark Mode Done Right",
+        description:
+          "A warm, easy-on-the-eyes theme that feels right—day or night.",
+        icon: <PiMoonStars size={26} />,
+      },
+    ],
+    imageSrc: "/images/mockup-3.png",
+  },
+];

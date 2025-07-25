@@ -11,13 +11,16 @@
   "dependencies": {
     "@headlessui/react": "^2.1.8",
     "@next/third-parties": "^14.2.13",
+    "@radix-ui/react-alert-dialog": "^1.1.14",
+    "@radix-ui/react-dialog": "^1.1.14",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
     "geist": "^1.4.2",
     "next": "^14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^5.3.0"
+    "react-icons": "^5.3.0",
+    "tailwind-variants": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

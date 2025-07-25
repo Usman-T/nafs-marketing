@@ -1,22 +1,26 @@
-import { BsBarChartFill, BsFillStarFill } from "react-icons/bs";
-import { PiGlobeFill } from "react-icons/pi";
+import { BsRocketTakeoffFill, BsShieldLockFill } from "react-icons/bs";
+import { PiSparkleFill } from "react-icons/pi";
 
 import { IStats } from "@/types";
+import { BiLock } from "react-icons/bi";
 
 export const stats: IStats[] = [
-    {
-        title: "20M+",
-        icon: <BsBarChartFill size={34} className="text-blue-500" />,
-        description: "Transactions processed securely every day, providing real-time insights."
-    },
-    {
-        title: "5.0",
-        icon: <BsFillStarFill size={34} className="text-yellow-500" />,
-        description: "Star rating, consistently maintained across app stores."
-    },
-    {
-        title: "200+ ",
-        icon: <PiGlobeFill size={34} className="text-green-600" />,
-        description: "Financial Institutions, seamlessly integrated, so you can manage all accounts."
-    }
+  {
+    title: "100%",
+    icon: <BiLock size={34} />,
+    description:
+      "Your reflections are private and secure. No tracking. No third-party ads.",
+  },
+  {
+    title: "7 Dimensions",
+    icon: <PiSparkleFill size={34} />,
+    description:
+      "Track your spiritual growth across 7 powerful areas of the soul.",
+  },
+  {
+    title: "Day 1",
+    icon: <BsRocketTakeoffFill size={34} />,
+    description:
+      "You're early. This is just the beginning—and you're part of it.",
+  },
 ];
