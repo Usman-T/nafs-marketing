@@ -2,8 +2,8 @@ export const siteDetails = {
     siteName: 'Nafs',
     siteUrl: 'https://www.nafs.in/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Nafs - Your Spiritual Companian',
+        description: 'Gamify your spiritual growth with nafs',
     },
     language: 'en-us',
     locale: 'en-US',
