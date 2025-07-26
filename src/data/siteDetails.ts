@@ -4,7 +4,7 @@ export const siteDetails = {
   metadata: {
     title: "Nafs – Your Spiritual Companian",
     description:
-      "A modern self-improvement platform grounded in Qur’anic wisdom. Build habits, track progress, and grow your Nafs with meaning.",
+      "For Muslims who want to master their nafs — with Qur’an as their guide."
   },
   language: "en-us",
   locale: "en-US",
