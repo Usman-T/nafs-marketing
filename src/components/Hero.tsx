@@ -3,6 +3,7 @@ import Image from "next/image";
 import PlayStoreButton from "./PlayStoreButton";
 
 import { heroDetails } from "@/data/hero";
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
@@ -30,7 +31,9 @@ const Hero: React.FC = () => {
           {heroDetails.subheading}
         </p>
         <div className="mt-8 flex flex-col sm:flex-row items-center sm:gap-4 w-fit mx-auto">
-          <PlayStoreButton  dark />
+          <Link href="/#cta">
+            <PlayStoreButton dark />
+          </Link>
         </div>
         <Image
           src={heroDetails.centerImageSrc}
