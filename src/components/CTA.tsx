@@ -23,7 +23,6 @@ const CTA: React.FC = () => {
 
     try {
       setStatus("loading");
-      // Replace this with your real API route
       const res = await fetch("/api/subscribe", {
         method: "POST",
         body: JSON.stringify({ email }),
@@ -77,10 +76,8 @@ const CTA: React.FC = () => {
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <Dialog>
                 <DialogTrigger asChild>
-                  <button className="group">
-                    <div className="transform transition-all duration-300 group-hover:scale-105">
-                      <PlayStoreButton dark />
-                    </div>
+                  <button>
+                    <PlayStoreButton dark />
                   </button>
                 </DialogTrigger>
 
@@ -88,7 +85,8 @@ const CTA: React.FC = () => {
                   <DialogHeader>
                     <DialogTitle>Become a tester</DialogTitle>
                     <DialogDescription>
-                      Enter your email and get early access to the app and its features (no spam)
+                      Enter your email and get early access to the app and its
+                      features (no spam)
                     </DialogDescription>
                   </DialogHeader>
 
